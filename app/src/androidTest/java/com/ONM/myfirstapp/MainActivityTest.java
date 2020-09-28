@@ -66,7 +66,7 @@ public class MainActivityTest {
     public void onClickSumButtonNegative() {
         String num1 = "2";
         String num2 = "4";
-        String sum = "7";
+        String sum = "6";
 
         // Type text
         onView(withId(R.id.editNum1))
