@@ -11,6 +11,12 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+- task: CmdLine@3
+  inputs:
+    script: |
+      echo "**** Start script **** "
+      echo "ls -l app"
+      ls -l app
 - task: Gradle@2
   inputs:
     workingDirectory: ''
@@ -23,7 +29,6 @@ steps:
   inputs:
     script: |
       echo "**** Start script **** "
-      pwd
-      ls
+      echo "ls -l app/build/outputs/apk/debug"
       ls -l app/build/outputs/apk/debug
       echo "**** End script **** "
