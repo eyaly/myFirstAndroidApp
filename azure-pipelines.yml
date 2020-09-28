@@ -11,12 +11,13 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
-- task: CmdLine@3
+- task: CmdLine@2
   inputs:
     script: |
       echo "**** Start script **** "
       echo "ls -l app"
       ls -l app
+      echo "**** End script **** "
 - task: Gradle@2
   inputs:
     workingDirectory: ''
