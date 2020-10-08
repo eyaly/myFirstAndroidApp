@@ -14,7 +14,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo "**** Start script **** "
+      echo "**** Start script**** "
       echo "ls -l app"
       ls -l app
       echo "**** End script **** "
