@@ -29,10 +29,10 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo "**** Start script **** "
+      echo "***** Start script ***** "
       echo "ls -l app/build/outputs/apk/debug"
       ls -l app/build/outputs/apk/debug
-      echo "**** End script **** "
+      echo "***** End script ***** "
 
 - task: CmdLine@2
   inputs:
