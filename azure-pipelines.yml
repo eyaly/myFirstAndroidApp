@@ -12,6 +12,7 @@ pool:
 
 steps:
 - task: CmdLine@2
+# Step 1 - 
   inputs:
     script: |
       echo "**** Start script**** "
