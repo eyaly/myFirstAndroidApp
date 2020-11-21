@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
         android:layout_marginEnd="96dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="22dp"
         android:onClick="onClickSumButton"
         android:text="Sum"
         app:layout_constraintBottom_toBottomOf="parent"
